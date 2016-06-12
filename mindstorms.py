@@ -15,7 +15,10 @@ def draw_art():
     for i in range (0,36):
         draw_square(brad)
         brad.right(10)
-
+    brad.right(90)
+    brad.forward(200)
+    brad.left(120)
+    brad.forward(100)
     #angie = turtle.Turtle()
     #angie.shape("turtle")
     #angie.color("blue")
